@@ -1,0 +1,67 @@
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+spark-3.3.4-bin-hadoop3/
+
+# === Environment variables / secrets ===
+.env
+.env.*
+*.env
+
+# === Python cache / compiled files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Logs ===
+*.log
+logs/
+log/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Build / distribution ===
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Test / coverage ===
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# === Spark / Big Data ===
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# === Data artifacts ===
+data/
+datasets/
+tmp/
+temp/
+
+# === Downloads ===
+*.zip
+*.tar
+*.gz
+
+# === Notebooks output ===
+*.nbconvert.ipynb
